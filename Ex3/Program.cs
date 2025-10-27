@@ -46,7 +46,7 @@ namespace Ex3
                 }
                 Console.WriteLine("Informe o valor 2 (número maior que zero):");
                 num2 = int.Parse(Console.ReadLine());
-                while (num1 <= 0)
+                while (num2 <= 0)
                 {
                     num2 = int.Parse(Console.ReadLine());
                 }
@@ -58,7 +58,7 @@ namespace Ex3
                         Console.WriteLine("Mínimo múltiplo comum: " + resultadoMMC);
                         break;
                     case 2:
-                        Console.WriteLine("Informe o valor 2 (número maior que zero):");
+                        Console.WriteLine("Informe o valor 3 (número maior que zero):");
                         int num3 = int.Parse(Console.ReadLine());
                         while (num3 <= 0)
                         {
@@ -66,6 +66,7 @@ namespace Ex3
                             num3 = int.Parse(Console.ReadLine());
                         }
                         int resultadoMDC = MDC(num1, num2, num3);
+                        Console.WriteLine("Máximo divisor comum: " + resultadoMDC);
                         break;
                     case 3:
 
